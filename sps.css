@@ -1,0 +1,49 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: rgb(202, 202, 202);
+}
+.main{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    height:300px;
+}
+.texts{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size:50px;
+    text-align: center;
+}
+h2{
+    margin:15px;
+}
+h3{
+    margin:15px;
+}
+
+.Option{
+    background-color: transparent;
+    border:none;
+}
+.opt-img{
+    height:200px;
+    color: none;
+    transition:all 0.3s ease;
+}
+.opt-img:hover{
+    height:250px;
+}
+#resetButton{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 25px;
+    border : 0px solid ; 
+    border-radius: 10px;
+}
